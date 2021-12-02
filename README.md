@@ -1,2 +1,2 @@
 # TestFertilidadGUI
-Tes Fertilidad con Interfaz Grafica
+Test Fertilidad con Interfaz Grafica
