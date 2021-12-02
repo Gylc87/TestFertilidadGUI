@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="/cdn-cgi/apps/head/Gr7TaV2Fo9CtnS_UIuAQhtGOoYM.js"></script><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- CSS -->
+    <link href="https://127.0.0.1/perfilador/assets/css/estilos.css" rel="stylesheet">
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <style>
+        /* The Modal (background) */
+        
+        .modal {
+            display: none;
+            /* Hidden by default */
+            position: fixed;
+            /* Stay in place */
+            z-index: 1;
+            /* Sit on top */
+            /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%;
+            padding-top: 0.5cm;
+            /* Full width */
+            height: 100%;
+            /* Full height */
+            overflow: scroll;
+            /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/ opacity */
+        }
+        /* Modal Content */
+        
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            margin-bottom: 0.5cm;
+            border: 1px solid #888;
+            width: 80%;
+        }
+        /* The Close Button */
+        
+        .close {
+            color: #aaaaaa;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Modal Example</h2>
+
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Open Modal</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12" align="right">
+                        <span class="close">&times;</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container-fluid hideable" id="home">
+                <div class="row">
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 anchoCol">
+                        <div id="left-man">
+                            <div class="top-lr">
+                                <h1>
+                                    ¿Quieres saber <br> qué tan fértil eres?
+                                </h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore a, at minus eum quibusdam error doloribus doloremque possimus numquam accusamus esse reiciendis tempora obcaecati harum inventore est fugit id beatae.
+                                </p>
+                            </div>
+                            <center>
+                                <a onclick="navigate('men')"><img src="http://127.0.0.1/perfilador/assets/images/man.png" alt="man" width="150px"></a>
+                                <h1>¿Hombre?</h1>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 anchoCol">
+                        <div id="right-woman">
+                            <div class="top-lr">
+
+                            </div>
+                            <center>
+                                <a onclick="navigate('women')"><img src="http://127.0.0.1/perfilador/assets/images/woman.png" alt="woman" width="150px"></a>
+                                <h1>Mujer?</h1>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="men" style="display:none" class="hideable">
+                <section id="profileMobil">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 anchoCol">
+                                <div id="profileMobilSettings" class="man-bg">
+                                    <center>
+                                        <img src="assets/images/man.png" alt="man">
+                                        <h1>Hombre</h1>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 anchoCol">
+                                <div class="content-profiletext">
+                                    <center>
+                                        <h1>
+                                            Preguntas del test <br> a dos líneas.
+                                        </h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, dolorum optio, vitae neque qui sed rerum amet placeat. Sapiente magnam adipisci beatae mollitia, labore eos autem iste quia aliquam perferendis!
+                                        </p>
+                                        <button>Respuesta</button>
+                                        <button>Respuesta</button>
+                                        <button>Respuesta</button>
+                                        <div id="lineCircles">
+                                            <hr>
+                                            <div id="circles">
+                                                <div class="boxCircle">
+                                                    <div class="activeCircle">1</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>2</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>3</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>4</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>5</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>6</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>7</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>8</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>9</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>10</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>11</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>12</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </center>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 anchoCol profileDesktop">
+                                <div class="content-profileimg man-bg">
+                                    <center>
+                                        <img src="assets/images/man.png" alt="man">
+                                        <h1>Hombre</h1>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+            </div>
+            <div class="hideable" id="women" style="display:none">
+                <section id="profileMobil">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 anchoCol">
+                                <div id="profileMobilSettings" class="woman-bg">
+                                    <center>
+                                        <img src="assets/images/woman.png" alt="woman">
+                                        <h1>Mujer</h1>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 anchoCol profileDesktop">
+                                <div class="content-profileimg woman-bg">
+                                    <center>
+                                        <img src="assets/images/woman.png" alt="woman">
+                                        <h1>Mujer</h1>
+                                    </center>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 anchoCol">
+                                <div class="content-profiletext">
+                                    <center>
+                                        <h1>
+                                            Preguntas del test <br> a dos líneas.
+                                        </h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, dolorum optio, vitae neque qui sed rerum amet placeat. Sapiente magnam adipisci beatae mollitia, labore eos autem iste quia aliquam perferendis!
+                                        </p>
+                                        <button>Respuesta</button>
+                                        <button>Respuesta</button>
+                                        <button>Respuesta</button>
+                                        <div id="lineCircles">
+                                            <hr>
+                                            <div id="circles">
+                                                <div class="boxCircle">
+                                                    <div class="activeCircle">1</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>2</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>3</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>4</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>5</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>6</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>7</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>8</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>9</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>10</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>11</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                                <div class="boxCircle">
+                                                    <div>12</div>
+                                                    <p>TIPO DE <br>PREGUNTA</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="hideable" id="women-results">
+                <section id="profileMobil">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 anchoCol">
+                                <div id="profileMobilSettings" class="woman-bg">
+                                    <center>
+                                        <img src="assets/images/woman.png" alt="woman">
+                                        <h1>Mujer</h1>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 anchoCol profileDesktop">
+                                <div class="content-profileimg woman-bg">
+                                    <center>
+                                        <img src="assets/images/woman.png" alt="woman">
+                                        <h1>Mujer</h1>
+                                    </center>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 anchoCol contentResults">
+                                <center>
+                                    <h1>Resultados</h1>
+                                    <h3>Su puntuación es de:</h3>
+                                    <p class="puntajeMujer">00</p>
+                                    <p class="infoResults">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident totam repellendus quo cupiditate accusantium earum, nemo consequatur nostrum ducimus iusto, suscipit molestias voluptatem excepturi dignissimos ab id! Veritatis, ipsam, odit. <br>                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident totam repellendus quo cupiditate accusantium earum, nemo consequatur nostrum ducimus iusto, suscipit molestias voluptatem excepturi dignissimos
+                                        ab id! Veritatis, ipsam, odit.
+                                    </p>
+                                    <p class="publicidadResults">¡Da el primer paso y solicita una consulta programa <br>diagnóstico de fertilidad</p>
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Nombre**">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="tel" placeholder="Teléfono**">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" placeholder="E-mail**">
+                                        </div>
+                                        <p>Preferencia de contacto</p>
+                                        <div class="form-group">
+                                            <input type="radio" name="preferenciaContacto" value="Email" checked> E-mail
+                                            <input type="radio" name="preferenciaContacto" value="Telefono"> Teléfono
+                                        </div>
+                                        <button type="submit">Contáctenme</button>
+                                    </form>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="https://127.0.0.1/perfilador/assets/js/operaciones.js"></script>
+    <!-- modules -->
+    <script src="https://127.0.0.1/perfilador/assets/js/modules/root.js"></script>
+    <script src="https://127.0.0.1/perfilador/assets/js/jstorage.min.js"></script>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        function navigate(value) {
+            $(".hideable").each(function() {
+                $(this).css("display", "none");
+            });
+            $("#" + value).css("display", "block");
+
+        }
+    </script>
+
+</body>
+
+</html>

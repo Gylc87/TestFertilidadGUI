@@ -1,0 +1,221 @@
+{
+    "mujer": {
+        "preguntas": [
+            {
+                "pregunta": "¿Qué edad tienes?",
+                "opciones": [
+                    "Menos de 35",
+                    "35-38",
+                    "38+"
+                ],
+                "explicacion": "Conforme la edad de la mujer avanza, los óvulos tienen menos posibilidades de formar un embrión que se pueda implantar y formar un hijo con un conjunto normal de cromosomas. El proceso de envejecimiento también disminuye la cantidad de óvulos que tiene. Después de la edad de 35 años, su potencial de fertilidad comienza a disminuir. Después de los 40 años, las posibilidades de embarazarse disminuyen rápidamente. Por lo que es importante realizar un diagnóstico certero, ya que la edad es un factor clave para la fertilidad."
+            },
+            {
+                "pregunta": "¿Fumas?",
+                "opciones": [
+                    "Nunca he fumado",
+                    "Fumaba antes",
+                    "Fumo Actualmente"
+                ],
+                "explicacion": "Fumar podría tener efectos adversos importantes tanto sobre la calidad de sus óvulos como en la calidad del esperma de tu pareja, por lo tanto puede afectar tu capacidad para embarazarte y de tener un bebé sano. Si fumas, tu fertilidad natural puede disminuir. También puede disminuir prematuramente tu reserva ovárica, envejeciendo sus ovarios a una velocidad mayor a la normal y podría llegar hasta causar menopausia prematura. Si logras embarazarte, los estudios muestran que las fumadoras podrían presentar tienen un mayor riesgo de aborto y menor probabilidad de lograr un nacimiento sano."
+            },
+            {
+                "pregunta": "¿Tienes sobrepeso o bajo peso?",
+                "opciones": [
+                    "IMC 18.5-24.9",
+                    "IMC 25.0-29.9",
+                    "IMC >30"
+                ],
+                "explicacion": "El sobrepeso puede tener efectos sobre la ovulación. Apenas hace poco tiempo se determinó plenamente que el peso también puede afectar, disminuyendo las posibilidades de embarazo. El efecto más importante ocurre cuando el índice de masa corporal (IMC) es de más de 35. Si tienes bajo peso y tu grasa corporal es de 10 a 15 por ciento inferior a la normal, puedes tener problemas para embarazarte. Las mujeres con bajo peso pueden ser incapaces de producir las hormonas necesarias para causar la ovulación, la cual es esencial para la concepción. Para calcular tu índice de masa corporal es necesario realizar una sencilla operación: Se divide la masa en kilogramos (el peso) entre el cuadrado de la estatura expresada en metros (altura). <div align='center'><img class='img-responsive' src='//www.ingenes.com/wp-content/themes/ingenes/images/icon/formula-imc.png'/></div>"
+            },
+            {
+                "pregunta": "¿Qué tan regulares son tus periodos menstruales?",
+                "opciones": [
+                    "Periodos regulares",
+                    "Irregulares, pero aproximadamente una vez al mes",
+                    "Muy irregulares o ausente"
+                ],
+                "explicacion": "Ya que la ovulación es esencial para tener un bebé, el hecho de tener periodos menstruales irregulares o ausencia de menstruación es riesgo de infertilidad. Si no menstrúas, o si tus ciclos son de más de 35 días o de menos de 25 días, podrías tener un problema de ovulación, una de las principales causas de infertilidad."
+            },
+            {
+                "pregunta": "¿Presentas sangrado o manchado entre tus periodos?",
+                "opciones": [
+                    "Nunca",
+                    "Rara vez",
+                    "Frecuentemente"
+                ],
+                "explicacion": "El sangrado anormal o manchado entre los periodos podría ser una señal de problemas hormonales, fibromas, pólipos, o problemas del útero o cervicales."
+            },
+            {
+                "pregunta": "¿Tienes historial de infecciones de transmisión sexual (ITS)?",
+                "opciones": [
+                    "Nunca ha tenido una ITS",
+                    "Una ITS sin llegar a Enfermedad pélvica inflamatoria (EPI)",
+                    "Enfermedad pélvica inflamatoria (EPI)"
+                ],
+                "explicacion": "Las infecciones de transmisión sexual (ITS) se han añadido a esta lista como uno de los principales causantes de infertilidad tanto en mujeres como en hombres. Si permanecen sin tratamiento, las enfermedades como la gonorrea o clamidia pueden conducir a enfermedad pélvica inflamatoria (EIP). La EIP puede resultar en complicaciones como cicatrices, abortos, embarazo ectópico, y bloqueo de las trompas de Falopio. Todas estas complicaciones pueden afectar tu probabilidad de lograr un embarazo sano."
+            },
+            {
+                "pregunta": "¿Tienes dolor durante tu menstruación o durante las relaciones sexuales?",
+                "opciones": [
+                    "Ningún dolor",
+                    "Dolor leve",
+                    "Dolor moderado a severo"
+                ],
+                "explicacion": "La endometriosis, la enfermedad tubárica, enfermedad inflamatoria pélvica y los fibromas pueden afectar la fertilidad negativamente y pueden ocasionar dolor durante las relaciones sexuales. Si experimentas dolor pélvico, dolor durante el sexo o dolor anormal durante la menstruación uno de los anteriores puede ser causa de infertilidad."
+            },
+            {
+                "pregunta": "¿Bebes alcohol en exceso o haces uso recreativo de drogas?",
+                "opciones": [
+                    "No bebo alcohol ni uso drogas",
+                    "Alcohol moderado o cualquier uso de drogas ocasional",
+                    "Consumo intenso de alcohol o uso regular de drogas"
+                ],
+                "explicacion": "Se ha demostrado que beber en exceso o usar drogas incrementa las probabilidades de sufrir trastorno ovulatorio o endometriosis. Ambas condiciones pueden dificultar embarazarse y/o de que el embarazo llegue a término. También puede afectar la calidad de los espermatozoides de su pareja."
+            },
+            {
+                "pregunta": "¿Tienes historial de abortos recurrentes?",
+                "opciones": [
+                    "Ninguno o un aborto",
+                    "2 abortos",
+                    "3 o más"
+                ],
+                "explicacion": "Los abortos recurrentes pueden ser causados por una anormalidad cromosómica en uno de los padres, problemas con la calidad de los óvulos, anormalidades estructurales del útero o anormalidades hormonales."
+            },
+            {
+                "pregunta": "¿Sufres de algún problema médico crónico?",
+                "opciones": [
+                    "Ningún problema médico",
+                    "Problema médico leve",
+                    "Problema médico severo"
+                ],
+                "explicacion": "Los problemas médicos severos como la diabetes, asma, alta presión arterial, artritis reumatoide pueden dificultar el embarazarse. Los medicamentos que se utilizan para tratar estas enfermedades pueden inhibir tu capacidad de concebir o ser dañinas para el bebé no nato."
+            },
+            {
+                "pregunta": "¿Has estado expuesta a radiación o medicamentos quimioterapéuticos?",
+                "opciones": [
+                    "No",
+                    "Ocasionalmente",
+                    "Frecuente o en tratamientos de quimio o radioterapia"
+                ],
+                "explicacion": "Las mujeres que reciben dosis relativamente altas de quimioterapia o radiación pueden ser más propensas a perder la fertilidad después del tratamiento que las mujeres tratadas con dosis más bajas."
+            }
+        ],
+        "resultados": [
+            {
+                "maximo": 13,
+                "respuesta": "La recomendación general es intentar concebir durante un año utilizando algún apoyo para predecir la ovulación para ayudarte a la programación correcta del coito antes de buscar ayuda médica. <br>Algunos tipos de apoyo para predecir la ovulación: Tiras de LH (hormona leutenizante), Chequeo frecuente de tu temperatura corporal, cualquier app que indique tus días fértiles"
+            },
+            {
+                "maximo": 16,
+                "respuesta": "La recomendación general es intentar concebir durante seis meses antes de buscar ayuda médica a menos que tenga periodos menstruales irregulares, un problema de fertilidad conocido, o más de 35 años; en cuyo caso puede ser buena idea consular a un especialista en fertilidad para obtener asesoría y una evaluación. Si alguno de sus puntos se deben a problemas por su estilo de vida, debe modificarlo de inmediato. Un buen recurso para obtener información acerca del estilo de vida es Fertility & Lifestyle (Fertilidad y Estilo de Vida). Idealmente los problemas de estilo de vida deben alterarse al comenzar a buscar la concepción, pero todos estos factores se vuelven progresivamente más importantes al involucrarse más en los tratamientos de fertilidad."		
+            },
+            {
+                "maximo": 99,
+                "respuesta": "Tienes problemas de fertilidad o ginecológicos conocidos, tienes más de 40 años, no tienes periodos menstruales o elegiste la tercera opción en cualquier factor que no sea un factor de estilo de vida que pueda modificar, te recomendamos ver a un especialista en fertilidad a la brevedad si estás buscando tener un bebé."
+            }
+        ]
+    },
+    "hombre": {
+        "preguntas": [
+            {
+                "pregunta": "¿Qué edad tienes?",
+                "opciones": [
+                    "Menos de 35",
+                    "60+"
+                ],
+                "explicacion": "En el caso masculino, la edad del hombre no es tan influyente en la fertilidad como en el caso de la mujer, ya que la edad fértil del hombre dura mientras el líquido seminal contenga espermatozoides. De media, este periodo empieza a la temprana edad de 14 años y termina a los 60 años."
+            },
+            {
+                "pregunta": "¿Fumas?",
+                "opciones": [
+                    "Nunca he fumado",
+                    "De 1 a 5 cigarrillos al día",
+                    "Más de 5 cigarrillos al día"
+                ],
+                "explicacion": "En lo que respecta a la fertilidad, el tabaco daña la calidad del esperma de los hombres, además de que la nicotina y algunos tóxicos más que se encuentran en los cigarrillos llevan a que el ADN del espermatozoide se fragmente, lesionándose el material genético del esperma, lo cual lleva a que la fecundación sea muy complicada."
+            },
+            {
+                "pregunta": "¿Tienes sobrepeso o bajo peso?",
+                "opciones": [
+                    "IMC 18.5-24.9",
+                    "IMC 25.0-29.9",
+                    "IMC >30"
+                ],
+                "explicacion": "Los hombres con sobrepeso tienen una peor calidad del esperma que los hombres de peso saludable. El sobrepeso o la obesidad también pueden causar cambios hormonales que reducen la fertilidad y hacen que los hombres estén menos interesado en el sexo. Los hombres que tienen problemas de obesidad también son más propensos a tener problemas para conseguir una erección. <div align='center'><img class='img-responsive' src='//www.ingenes.com/wp-content/themes/ingenes/images/icon/formula-imc.png'/></div>"
+            },
+            {
+                "pregunta": "¿Tienes historial de infecciones de transmisión sexual (ITS)?",
+                "opciones": [
+                    "Nunca ha tenido una ITS",
+                    "Sí"
+                ],
+                "explicacion": "Las infecciones de transmisión sexual (ITS) se han añadido a esta lista como uno de los principales causantes de infertilidad tanto en mujeres como en hombres. En el caso de los hombres estas infecciones son las responsables de este problema en un 15% de los casos, ya que pueden interesar a las vías seminales, así como a los testículos y su capacidad para producir suficientes espermatozoides sanos, afectando negativamente al número, la movilidad, la morfología y la integridad del ADN."
+            },
+            {
+                "pregunta": "¿Bebes alcohol en exceso o haces uso recreativo de drogas?",
+                "opciones": [
+                    "No bebo alcohol ni uso drogas",
+                    "Alcohol moderado o cualquier uso de drogas ocasional",
+                    "Consumo intenso de alcohol o uso regular de drogas"
+                ],
+                "explicacion": "El abuso del alcohol, según diferentes estudios, puede incidir en un menor número de espermatozoides, de testosterona y en un aumento de estrógenos. Esto podría influir en una disminución de la libido o deseo sexual y disminución de la fertilidad. Esto es más obvio cuando ya tenemos un daño hepático. Respecto al uso de otras drogas, uno de los problemas más preocupantes es que además de provocar o agravar las disfunciones sexuales masculinas, al empeorar el estado general de salud, pueden dañar el ADN o material hereditario."
+            },
+            {
+                "pregunta": "¿Sufres de algún problema médico crónico?",
+                "opciones": [
+                    "Ningún problema médico",
+                    "Problema médico leve",
+                    "Problema médico severo"
+                ],
+                "explicacion": "Las enfermedades como la diabetes, asma, alta presión arterial, artritis reumatoide u otras enfermedades serias pueden dificultar lograr el embarazo. Los medicamentos que se utilizan para tratar estas enfermedades pueden inhibir tu capacidad de concebir o ser dañinas para el bebé no nato."
+            },
+            {
+                "pregunta": "¿Has estado expuesto a radiación o medicamentos quimioterapéuticos?",
+                "opciones": [
+                    "No",
+                    "Ocasionalmente",
+                    "Frecuente o en tratamientos de quimio o radioterapia"
+                ],
+                "explicacion": "La quimioterapia (quimio) y/o la radiación funciona al eliminar las células en el cuerpo que se dividen rápidamente. Dado que los espermatozoides se dividen rápidamente, constituyen un blanco fácil para el daño causado por la quimioterapia. La infertilidad permanente puede surgir si todas las células inmaduras en los testículos que se dividen para producir nuevos espermatozoides (llamadas células madre espermatogonias) se dañan al punto que ya no pueden producir espermatozoides maduros."
+            },
+            {
+                "pregunta": "¿Te expones frecuentemente a ambientes con temperatura elevada y mala ventilación como saunas, vapores u hornos?",
+                "opciones": [
+                    "No",
+                    "Ocasionalmente 1 vez al mes",
+                    "Frecuente"
+                ],
+                "explicacion": "El efecto del calor en la producción espermática ha sido fuertemente documentado a lo largo de los años. Hoy se sabe que puede llevar a la oligospermia -baja cantidad de espermatozoides en el eyaculado-, astenospermia – alteración en la función de los espermatozoides- y teratozoospermia – alteración en la forma de los espermatozoides."
+            },
+            {
+                "pregunta": "¿Presentas dolor o mayor sensibilidad en la region testicular o tienes diagnóstico de varicocele?",
+                "opciones": [
+                    "No",
+                    "Ocasionalmente presento molestias o tengo diagóstico de varicocele",
+                    "Molestia constante o diagnosticado con Varicocele de 3er grado"
+                ],
+                "explicacion": "El presentar dolor constante en la región testicular podría ser índice de varicocele, la presencia de venas varicosas o dilatadas en el escroto. Alrededor de 15 por ciento de los hombres padece esta enfermedad. Aunque para algunos no representa un problema, casi 40 por ciento de los hombres infértiles tiene varicocele. Es importante señalar que el varicocele izquierdo es más común que el derecho (alrededor de 80 por ciento de los casos)."
+            }
+        ],
+        "resultados": [
+            {
+                "maximo": 12,
+                "respuesta": "La recomendación general es intentar concebir con tu pareja durante un año utilizando un apoyo para predecir la ovulación de su pareja para ayudarle a la programación correcta del coito antes de buscar ayuda médica. Algunos tipos de apoyo para predecir la ovulación: Tiras de LH (hormona leutenizante), chequeo frecuente de la temperatura corporal de la mujer, cualquier app que indique los días fértiles de la mujer."
+            },
+            {
+                "maximo": 18,
+                "respuesta": "La recomendación general es intentar concebir durante seis meses antes de buscar ayuda médica a menos que tenga un problema de fertilidad conocido, o más de 60 años; en cuyo caso puede ser buena idea consular a un especialista en fertilidad para obtener asesoría y una evaluación a la brevedad. Si alguno de sus puntos se deben a problemas por su estilo de vida, debe modificarlo de inmediato. Un buen recurso para obtener información acerca del estilo de vida es Fertility & Lifestyle (Fertilidad y Estilo de Vida). Idealmente los problemas de estilo de vida deben alterarse al comenzar a buscar la concepción, pero todos estos factores se vuelven progresivamente más importantes al involucrarse más en los tratamientos de fertilidad."
+            },
+            {
+                "maximo": 99,
+                "respuesta": "Es muy problable que tengas problemas de fertilidad o urológicos conocidos, y es altamente recomendable ver a un especialista en fertilidad a la brevedad."
+            }
+        ]
+    }
+}
+		
+		
+		
+		
+		

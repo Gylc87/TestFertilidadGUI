@@ -1,0 +1,93 @@
+{
+    "hombre": [{
+            "pregunta": "¿Qué edad tienes?",
+            "respuestas": [
+                "Menos de 60",
+                "60 o más"
+            ]
+        },
+        {
+            "pregunta": "¿Fumas?",
+            "respuestas": [
+                "Nunca he fumado",
+                "De 1 a 5 cigarros al día.",
+                "Más de 5 cigarros al día"
+            ]
+        },
+        {
+            "pregunta": "¿Dentro de que rango se encuentra tu IMC(Indíce de Masa Corporal)?",
+            "respuestas": [
+                "18.5 a 24.9(peso normal)",
+                "25.0 a 29.9(sobrepeso)",
+                "mayor a 30(obesidad)"
+            ]
+        },
+        {
+            "pregunta": "¿Padeces o haz padecido de alguna enfermedad de transmisión sexual(ETS)?",
+            "respuestas": [
+                "Nunca he tenido una ETS",
+                "Sí"
+            ]
+        },
+        {
+            "pregunta": "¿Bebes alcohol en exceso o haces uso recreativo de drogas?",
+            "respuestas": [
+                "No bebo alcohol ni uso drogas",
+                "Alcohol moderado o cualquier uso de drogas ocasional",
+                "Consumo intenso de alcohol o uso regular de drogas"
+            ]
+        },
+        {
+            "pregunta": "¿Sufres de algún problema médico crónico?",
+            "respuestas": [
+                "Ningún problema médico",
+                "Problema médico leve",
+                "Problema médico severo"
+            ]
+        },
+
+        {
+            "pregunta": "¿Has estado expuesto a radiación o medicamentos quimioterápicos?",
+            "respuestas": [
+                "No",
+                "Ocasionalmente",
+                "Frecuentemente"
+            ]
+        },
+        {
+            "pregunta": "¿Qué edad tienes?",
+            "respuestas": [
+                "Menos de 35",
+                "60 o más"
+            ]
+        },
+        {
+            "pregunta": "¿Qué edad tienes?",
+            "respuestas": [
+                "Menos de 35",
+                "60 o más"
+            ]
+        }
+    ]
+}
+
+
+
+
+5)
+1 2 3
+
+6)
+1 2 3
+
+7)
+Trabajar cerca de lugares de radiación o imagenología, o consumido medicamentos quimioterápicos por tiempos menores a 14 días
+
+8)¿ Te expones frecuentemente a ambientes con temperatura elevada y mala ventilación como saunas, vapores u hornos ?
+    1 2 3
+No Ocasionalmente Frecuente
+1 vez al mes
+
+9) Presentas dolor o mayor sensibilidad en la region testicular o tienes diagnóstico de varicocele ?
+    1 2 3
+No Ocasionalmente presento molestias o tengo diagóstico de varicocele Molestia constante o diagnosticado con Varicocele de 3e r grado
