@@ -1,0 +1,485 @@
+/********** */
+
+
+/*SASS */
+
+
+/********** */
+
+
+/********** */
+
+
+/*Variables */
+
+
+/********** */
+
+
+/********** */
+
+
+/*Mixins*** */
+
+
+/********** */
+
+
+/********** */
+
+
+/*Content** */
+
+
+/********** */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.font-w{
+    color: white;
+}
+.font-20{
+    font-size: 20px;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 9999;
+    /* Sit on top */
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-top: 0.5cm;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: scroll;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+#myModal .modal p,h1{
+    font-family: "futura_lightregular",Helvetica,Arial,sans-serif;
+}
+
+/* Modal Content */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+/*    padding-left: 20px;*/
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0.5cm;
+    border: 1px solid #888;
+    width: 95%;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.handPointer:hover{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.anchoRow {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.anchoCol {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.anchoContainer {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/*@font-face {
+    font-family: lato_black;
+    src: url(../fonts/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: lato_bold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: lato_regular;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: lato_light;
+    src: url(../fonts/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: lato_ultralight;
+    src: url(../fonts/Lato-Hairline.ttf);
+}*/
+
+.top-1 {
+    margin-top: 1em;
+}
+
+.top-2 {
+    margin-top: 2em;
+}
+
+.top-3 {
+    margin-top: 3em;
+}
+
+.top-4 {
+    margin-top: 4em;
+}
+
+.top-5 {
+    margin-top: 5em;
+}
+
+/*h1,
+h3 {
+    font-family: lato_regular;
+}
+
+p,
+a,
+input {
+    font-family: lato_regular;
+}*/
+
+#profileMobil {
+    display: none;
+}
+#closeButton{
+    font-size:30px;
+    cursor: pointer!important;
+}
+
+#closeButton:hover{
+    color: red;
+}
+.bg {
+    background-image: url("../images/fondo.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.man-bg {
+    background-color: #14c0d8;
+}
+
+.woman-bg {
+    background-color: #40a8c5;
+}
+
+.content-profiletext h1 {
+    margin-top: 3em;
+}
+
+.content-profiletext p {
+    margin-top: 2em;
+    font-size: 18px;
+/*    width: 70%;*/
+    color: grey;
+}
+
+.content-profiletext button {
+    background-color: #00afaa;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    font-family: "futura_lightregular",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    margin-top: 1em !important;
+    margin: 0px 10px;
+    padding: 20px;
+}
+
+.content-profiletext button:hover {
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+.content-profiletext div#lineCircles {
+    margin-top: 7em;
+    margin-bottom: 5em;
+}
+
+.content-profiletext div#lineCircles hr {
+    background-color: #00afaa;
+    height: 2px;
+    width: 90%;
+    max-width: 650px;
+    opacity: 0.1;
+}
+
+.content-profiletext div#lineCircles div#circles {
+    margin-top: -42px;
+}
+.boxCircle {
+    cursor: pointer!important;
+}
+.content-profiletext div#lineCircles div#circles  div.boxCircle {
+    display: inline-block;
+}
+
+.content-profiletext div#lineCircles div#circles div.boxCircle div {
+    background-color: #00afaa;
+    border-radius: 50px;
+    color: white;
+    display: inline-block;
+    font-size: 10px;
+    height: 22px;
+    margin: 0px 15px;
+    opacity: 0.7;
+    padding: 3px;
+    width: 22px;
+}
+
+.content-profiletext div#lineCircles div#circles1 div#circles2 div.boxCircle div:hover {
+    cursor: pointer;
+}
+
+.content-profiletext div#lineCircles div#circles1 div#circles2 div.boxCircle p {
+    font-size: 7px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.content-profileimg {
+    height: 750px;
+}
+
+.content-profileimg img {
+    width: 150px;
+    margin-top: 70%;
+}
+
+.content-profileimg h1 {
+    color: white;
+}
+
+.activeCircle {
+    transition: 0.5s;
+    height: 33px !important;
+    opacity: 1 !important;
+    padding: 9px !important;
+    width: 33px !important;
+}
+
+#left-man {
+    background-color: #14c0d8;
+    height: 650px;
+}
+
+#left-man h1 {
+    color: white;
+    margin-top: 0px;
+}
+
+#left-man h1:nth-child(1) {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#left-man p {
+    color: white;
+    font-family: "futura_lightregular",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 40px;
+    padding-top: 10px;
+    width: 85%;
+}
+
+#left-man center img {
+    margin-bottom: 0px;
+}
+
+#left-man center img:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+#left-man center h1 {
+    margin-top: 20px;
+}
+
+#right-woman {
+    background-color: #40a8c5;
+    height: 650px;
+}
+
+#right-woman h1 {
+    color: white;
+    margin-top: 20px;
+}
+
+#right-woman center img {
+    margin-bottom: 0px;
+}
+
+#right-woman center img:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.top-lr {
+    height: 270px;
+}
+#home{
+    position: relative;
+}
+.top-lrx {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 150px;
+    text-align: center;
+    z-index: 666;
+}
+
+
+
+
+.contentResults h1 {
+    margin-top: 1em;
+}
+
+.contentResults h3 {
+    color: grey;
+}
+
+.contentResults p.puntajeMujer {
+    color: #40a8c5;
+    font-size: 60px;
+    margin-top: 0.5em;
+}
+
+.contentResults p.puntajeHombre {
+    color: #14c0d8;
+    font-size: 60px;
+    margin-top: 0.5em;
+}
+
+.contentResults p.infoResults {
+    font-size: 22px;
+}
+
+.contentResults p.publicidadResults {
+    color: #80bd00;
+    font-size: 18px;
+    margin-top: 2em;
+    padding: 0px 10px;
+}
+
+.contentResults form {
+    color: grey;
+    margin-top: 3em;
+}
+
+.contentResults form input {
+    background-color: #f7f8fa;
+    border-radius: 5px;
+    border: 0px solid white;
+    color: grey;
+    padding: 10px 30px;
+    width: 40%;
+}
+
+.contentResults form input[type="radio"] {
+    margin: 0px 10px;
+    width: 10px;
+}
+
+.contentResults form button {
+    background-color: #80bd00;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-family: lato_light;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 3em;
+    margin-top: 1em;
+    padding: 10px 0px;
+    width: 300px;
+}
+
+.contentResults form button:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+    .profileDesktop {
+        display: none;
+    }
+    .content-profiletext h1 {
+        margin-top: 1em;
+    }
+    .content-profiletext div#lineCircles hr {
+        display: none;
+    }
+    #profileMobil {
+        display: initial;
+    }
+    #profileMobil div#profileMobilSettings img {
+        width: 150px;
+        margin-top: 2em;
+    }
+    #profileMobil div#profileMobilSettings h1 {
+        color: white;
+        padding-bottom: 1em;
+    }
+    #left-man,
+    #right-woman {
+        height: 600px;
+    }
+    #right-woman {
+        height: 300px;
+    }
+    #right-woman center img {
+        margin-top: 50px;
+    }
+    #right-woman div.top-lr {
+        display: none;
+    }
+    
+}
+
+
+/*# sourceMappingURL=estilos.css.map */
